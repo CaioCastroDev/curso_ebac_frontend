@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+input, button{
+    width: 100%;
+    margin-top: 8px;
+    padding: 8px;
+    text-align: center;
+}
+
+h1, h2  {
+    text-align: center;
+}
+
+p.correto {
+    background-color: #55be55;
+    margin-top: 16px;
+    padding: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+p.incorreto {
+    background-color: #be5555;
+    margin-top: 16px;
+    padding: 16px;
+    text-align: center;
+    color: #fff;
+}
+
